@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+        <RootNamespace>Utilities2</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Include="AttributeHelpers.fs" />
+      <Compile Include="Interop.fs" />
+      <Compile Include="JaroWinkler.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="packages.config" />
+    </ItemGroup>
+
+</Project>
